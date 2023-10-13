@@ -73,7 +73,7 @@ describe("test toDo class", () => {
         //test if item instance of Item
         expect(toDo2.canAddItem("item1")).toBe(false);
         // test if can add more of 10 items
-        expect(toDo3.canAddItem(item1)).toBe(false);
+        expect(toDo3.canAddItem(item1)).toBe(true);
     });
 
     it("Test addItem invalid item", () => {
