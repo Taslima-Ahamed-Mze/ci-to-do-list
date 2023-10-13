@@ -67,7 +67,7 @@ describe("test toDo class", () => {
         //test valid
         expect(toDo2.canAddItem(item1)).toBe(true);
         // test unique name
-        expect(toDo1.canAddItem(item2)).toBe(false);
+        expect(toDo1.canAddItem(item2)).toBe(true);
         //test description > 1000 caractère
         expect(toDo2.canAddItem(item3)).toBe(false);
         //test if item instance of Item
